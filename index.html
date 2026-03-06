@@ -1,6 +1,5 @@
-<!-- author; Kamil Bhat
-3d Object: The 3d chracter is created in spline you can make any 3d object to make website attractive -->
-
+<!-- author: Kamil Bhat  -->
+ <!-- the 3d robot in home page is created in spline  -->
 
 
 
@@ -9,9 +8,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>kamil-Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <img 
@@ -20,42 +19,57 @@
     <div class="layer-blur"></div>
     <div class="container">
         <header>
-            <h1 class="logo">KAMIL</h1>
-            <nav>                             <!-- YOU CAN CHANGE NAV BAR AND REPLACE IT ACCORDING YOUR NEEDS -->
-                <a href="#">COMPANY</a>
-                <a href="#">FEATURES</a>
-                <a href="#">RESOURCE</a>
-                <a href="#">DOCS</a>
+            <h1 data-aos="fade-down" data-aos-duration="1100" class="logo">KAMIL</h1>
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1300" href="https://github.com/kamill-dev" target="_blank">COMPANY</a>
+                <a data-aos="fade-down" data-aos-duration="1500" href="https://github.com/kamill-dev" target="_blank">FEATURES</a>
+                <a data-aos="fade-down" data-aos-duration="1700" href="https://github.com/kamill-dev" target="_blank">RESOURCE</a>
+                <a data-aos="fade-down" data-aos-duration="1900" href="https://github.com/kamill-dev" target="_blank">DOCS</a>
             </nav>
-            <button class="btn-signin">SIGNIN</button>
+            <button  data-aos="fade-down" data-aos-duration="2100" class="btn-signin">SIGNIN</button>
         </header>
 
         <main>
         <div class="content">
-            <div class="tag-box">
+                <div data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="1000"   class="tag-box">
                 <div class="tag">INTRODUCING &wedbar;</div>
             </div>
-            <h1>EMAIL FOR <br>DEVELOPER</h1>  <!--YOU CAN REPLACE ADD YOUR NAME  HERE  -->
+            <h1 
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="1300"  >KAMIL FAROOQ <br>BHAT</h1>
 
-             <p class="description">  <!-- YOU CAN ADD YOUR OWN DESCRIPTION ABOUT YOURSELF OR ANYTHING HERE -->
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry' 
-                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry'
-              </p>
+             <p data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="1500"  class="description">
+                   I’m <strong>Kamil Bhat</strong>, currently learning modern 3D web development
+                        and interactive web experiences.
               
-              <div class="buttons">
-                <a href="#" class="btn-get-started">instagram &gt;</a>
-                <a href="#" class="btn-signing-main">github</a>
+              <div data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="1700"  class="buttons">
+                <a href="https://www.instagram.com/kamillbhat/" class="btn-get-started" target="_blank">Instagram &gt;</a>
+                <a href="https://wa.me/918899381355?text=Hello%20Kamil " class="btn-signing-main" target="_blank">WhatsApp </a>
               </div>
         </div>
     </main>
-    <spline-viewer class="robot-3d" url="https://prod.spline.design/FJIEBGSIj9Hvh02y/scene.splinecode"></spline-viewer>
+         <spline-viewer data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="2000"  class="robot-3d" url="https://prod.spline.design/FJIEBGSIj9Hvh02y/scene.splinecode"></spline-viewer>
       </div>
 
       <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.29/build/spline-viewer.js"></script>
 
-
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
