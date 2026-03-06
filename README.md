@@ -3,10 +3,6 @@
 A **futuristic 3D animated personal portfolio website** showcasing my journey into modern web development and interactive 3D experiences.  
 This project blends **clean UI design** with **real-time 3D visuals** to create an immersive first impression.
 
-## ✨ Preview
-
-A dark, minimal interface combined with a 3D humanoid model creates a modern, cyber-style portfolio experience.
-
 ## 🚀 Features
 
 - 🎮 Real-time 3D animated model
@@ -36,7 +32,5 @@ The goal was to create something **more than a static portfolio** — a digital 
 
 > No frameworks used — keeping it lightweight and beginner-friendly.
 
-## 📂 Project Structure
 
-Project structure will be added soon.
 
