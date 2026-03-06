@@ -25,8 +25,8 @@ The goal was to create something **more than a static portfolio** — a digital 
 .
 ## 🛠️ Tech Stack
 
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 - **JavaScript**
 - **Spline (3D design & animation)**
 
